@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lettery – Letter Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2>Lettery</h2>
+        <p class="tagline">All letter formats. One place.</p>
+
+        <button class="active">🏫 School Letters</button>
+        <button>🎓 College Letters</button>
+        <button>🏢 Corporate Letters</button>
+        <button>🏛 Government Letters</button>
+        <button>📄 Miscellaneous</button>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <h1>Select Letter Type</h1>
+
+        <!-- LETTER TYPES -->
+        <div class="letter-grid">
+
+            <div class="letter-card">
+                Leave Application
+                <span>School / College / Office</span>
+            </div>
+
+            <div class="letter-card">
+                Complaint Letter
+                <span>Principal / College / Govt</span>
+            </div>
+
+            <div class="letter-card">
+                Bonafide Certificate
+                <span>School / College</span>
+            </div>
+
+            <div class="letter-card">
+                Recommendation Letter
+                <span>Academic / Corporate</span>
+            </div>
+
+            <div class="letter-card">
+                RTI Application
+                <span>Government</span>
+            </div>
+
+            <div class="letter-card">
+                Resignation Letter
+                <span>Teacher / Office</span>
+            </div>
+
+        </div>
+
+        <!-- OUTPUT -->
+        <section class="output">
+            <h2>Generated Letter</h2>
+            <textarea readonly>
+Subject: Application for Sick Leave
+
+Dear Sir/Madam,
+
+I am writing to inform you that...
+
+[Letter content will appear here]
+            </textarea>
+
+            <button class="copy">📋 Copy Letter</button>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
